@@ -23,7 +23,7 @@ docker run -e PROXY_PASS_URL=http://your-backend-service:port -p 80:80 your-imag
 - `PROXY_PASS_URL`: The target URL to proxy requests to (required)
 - `WORKER_PROCESSES`: Number of worker processes (default: 2)
 - `WORKER_CONNECTIONS`: Number of worker connections (default: 1024)
-- `CACHE_SIZE`: Maximum cache size (default: 1g)
+- `CACHE_SIZE`: Maximum cache size (default: 3g)
 
 ### Cache Control
 
